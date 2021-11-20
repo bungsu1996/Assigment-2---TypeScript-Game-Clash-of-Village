@@ -497,8 +497,6 @@ class userPlayer {
                                   Message: "Your Troops Succesfull To Attack Enemy!",
                                   Attacker: "Congratulation!! You Are The Winner!", 
                                   Your_Resources_Increase: attackerWin,
-                                  Defender: "Oops.. Your Troops Failed To Defend!",
-                                  Your_Lost_Resources: defenderLose 
                                 }
                               );
       } else {
@@ -512,8 +510,6 @@ class userPlayer {
                                   Message: "Oopss.. Losser!!",
                                   Attacker: "Oops.. Your Troops Failed To Attack!", 
                                   Your_Lost_Resources: attackerLose,
-                                  Defender: "Congratulation!! You Are The Winner Defender!",
-                                  Your_Resources_Increase: defenderWin 
                                 }
                               );
       };
