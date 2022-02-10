@@ -16,7 +16,7 @@ class authJwt {
   }
 
 
-  static async authorization(req: I_Auth, _res: Response, next: NextFunction) {
+  static async authorization(req: I_Auth, res: Response, next: NextFunction) {
     const { id }: any = req.allUser;
     const { idUser } = req.params;
 

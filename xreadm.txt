@@ -5,6 +5,7 @@ Langkah-langkah Install keseluruhan tools untuk backend full javascript ->
   - npm install nodemon -g (install secara global nodemon)
   - npm install bcrypt/ bcryptjs
   - npm install jsonwebtoken
+  - npm install mongoose
   
 Langkah-langkah install keseluruhan tools untuk backend full javascript -> menggunakan typescript
 
